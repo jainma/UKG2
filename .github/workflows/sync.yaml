@@ -19,12 +19,13 @@ jobs:
         # Docs: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
         uses: readmeio/rdme@8.0.2
         with:
-          rdme: openapi readme.json --key=rdme_xn8s9h8b348128bce9b863032bec12f229cccc4f24c1b259729fae0df5667dbec8d028  --id=636490b07b75720042fe920b
+          rdme: openapi Attendance.json --key=rdme_xn8s9h711fce1bd6ee65a095d831a60c2c75a3698961e5f528706ad88413c48b7078bb  --id=6389d58f303d5a007057408a version=3.0
           
-      # Run GitHub Action to sync docs in `documentation` directory
+       # Run GitHub Action to sync OpenAPI file at [path-to-file.json]
       - name: GitHub Action
         # We recommend specifying a fixed version, i.e. @8.0.2
         # Docs: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
         uses: readmeio/rdme@8.0.2
         with:
-          rdme: docs./rdme.md --key=rdme_xn8s9h8b348128bce9b863032bec12f229cccc4f24c1b259729fae0df5667dbec8d028 --version=1.0
+         rdme: docs ./Authentication --key=rdme_xn8s9h711fce1bd6ee65a095d831a60c2c75a3698961e5f528706ad88413c48b7078bb --version=3.0
+      
