@@ -27,5 +27,5 @@ jobs:
         # Docs: https://docs.github.com/actions/using-workflows/workflow-syntax-for-github-actions#example-using-versioned-actions
         uses: readmeio/rdme@8.0.2
         with:
-         rdme: docs ./Authentication --key=rdme_xn8s9h711fce1bd6ee65a095d831a60c2c75a3698961e5f528706ad88413c48b7078bb --version=3.0
+         rdme: docs ./docs/Authentication --key=rdme_xn8s9h711fce1bd6ee65a095d831a60c2c75a3698961e5f528706ad88413c48b7078bb --version=3.0
       
